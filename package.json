@@ -1,0 +1,13 @@
+{
+  "name": "chromium--only-shell",
+  "version": "1.0.0",
+  "scripts": {
+    "remove browsers": "playwright uninstall --all",
+    "install chromium": "playwright install chromium --only-shell",
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.9.1"
+  }
+}
